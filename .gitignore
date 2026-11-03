@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local notes and experiment outputs (not published)
+CLAUDE.md
+EXPIREMENT.md
+FINDINGS.md
+HANDOVER.md
+report.md
+results/
+results_archive/
+cache/

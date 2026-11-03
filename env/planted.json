@@ -1,0 +1,282 @@
+{
+  "seed": 42,
+  "counts": {
+    "customers": 60,
+    "orders": 300,
+    "transactions": 510,
+    "logs": 2000,
+    "tickets": 40
+  },
+  "duplicate_charges": [
+    {
+      "customer_id": 55,
+      "customer_name": "Freya Martin",
+      "order_number": "ORD-10426",
+      "order_date": "2026-05-08",
+      "succeeded_charges": 2,
+      "amount_eur": 200.21
+    },
+    {
+      "customer_id": 3,
+      "customer_name": "Rosa Horvat",
+      "order_number": "ORD-10024",
+      "order_date": "2026-01-10",
+      "succeeded_charges": 3,
+      "amount_eur": 155.05
+    },
+    {
+      "customer_id": 36,
+      "customer_name": "Lukas Larsen",
+      "order_number": "ORD-10242",
+      "order_date": "2026-03-19",
+      "succeeded_charges": 2,
+      "amount_eur": 202.59
+    },
+    {
+      "customer_id": 29,
+      "customer_name": "Hugo Jensen",
+      "order_number": "ORD-10109",
+      "order_date": "2026-02-03",
+      "succeeded_charges": 2,
+      "amount_eur": 158.15
+    }
+  ],
+  "epay502_errors": [
+    {
+      "date": "2026-02-09",
+      "customer_id": 30,
+      "customer_name": "Laila Wagner",
+      "n_lines": 2
+    },
+    {
+      "date": "2026-03-23",
+      "customer_id": 31,
+      "customer_name": "Olga Fischer",
+      "n_lines": 2
+    },
+    {
+      "date": "2026-04-14",
+      "customer_id": 15,
+      "customer_name": "Ana Jensen",
+      "n_lines": 1
+    },
+    {
+      "date": "2026-06-03",
+      "customer_id": 10,
+      "customer_name": "Samuel Kovac",
+      "n_lines": 2
+    }
+  ],
+  "gateway_timeouts": [
+    {
+      "date": "2026-01-27",
+      "n_distinct_customers": 3,
+      "n_lines": 7,
+      "customers": [
+        {
+          "customer_id": 31,
+          "customer_name": "Olga Fischer",
+          "n_lines": 2
+        },
+        {
+          "customer_id": 30,
+          "customer_name": "Laila Wagner",
+          "n_lines": 2
+        },
+        {
+          "customer_id": 55,
+          "customer_name": "Freya Martin",
+          "n_lines": 3
+        }
+      ]
+    },
+    {
+      "date": "2026-03-11",
+      "n_distinct_customers": 4,
+      "n_lines": 9,
+      "customers": [
+        {
+          "customer_id": 28,
+          "customer_name": "Lucia Rahman",
+          "n_lines": 2
+        },
+        {
+          "customer_id": 51,
+          "customer_name": "Mateo Novak",
+          "n_lines": 3
+        },
+        {
+          "customer_id": 60,
+          "customer_name": "Clara Tanaka",
+          "n_lines": 1
+        },
+        {
+          "customer_id": 37,
+          "customer_name": "Mikael Dubois",
+          "n_lines": 3
+        }
+      ]
+    },
+    {
+      "date": "2026-05-02",
+      "n_distinct_customers": 5,
+      "n_lines": 11,
+      "customers": [
+        {
+          "customer_id": 10,
+          "customer_name": "Samuel Kovac",
+          "n_lines": 2
+        },
+        {
+          "customer_id": 29,
+          "customer_name": "Hugo Jensen",
+          "n_lines": 3
+        },
+        {
+          "customer_id": 35,
+          "customer_name": "Mei Schulz",
+          "n_lines": 1
+        },
+        {
+          "customer_id": 19,
+          "customer_name": "Alice Kowalski",
+          "n_lines": 2
+        },
+        {
+          "customer_id": 25,
+          "customer_name": "Bruno Kaya",
+          "n_lines": 3
+        }
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "n_distinct_customers": 6,
+      "n_lines": 13,
+      "customers": [
+        {
+          "customer_id": 35,
+          "customer_name": "Mei Schulz",
+          "n_lines": 2
+        },
+        {
+          "customer_id": 14,
+          "customer_name": "Tariq Fernandez",
+          "n_lines": 1
+        },
+        {
+          "customer_id": 43,
+          "customer_name": "Ivan Fernandez",
+          "n_lines": 1
+        },
+        {
+          "customer_id": 12,
+          "customer_name": "Esther Murphy",
+          "n_lines": 3
+        },
+        {
+          "customer_id": 31,
+          "customer_name": "Olga Fischer",
+          "n_lines": 3
+        },
+        {
+          "customer_id": 9,
+          "customer_name": "Karim Ahmed",
+          "n_lines": 3
+        }
+      ]
+    }
+  ],
+  "refunds": [
+    {
+      "customer_id": 46,
+      "customer_name": "Diego Kim",
+      "has_pending": true,
+      "refunds": [
+        {
+          "order_number": "ORD-10011",
+          "status": "pending",
+          "amount_eur": 138.87,
+          "created_at": "2026-01-15T15:00:22"
+        }
+      ]
+    },
+    {
+      "customer_id": 27,
+      "customer_name": "Priya Ahmed",
+      "has_pending": true,
+      "refunds": [
+        {
+          "order_number": "ORD-10033",
+          "status": "pending",
+          "amount_eur": 227.95,
+          "created_at": "2026-01-22T04:23:43"
+        }
+      ]
+    },
+    {
+      "customer_id": 39,
+      "customer_name": "Hannah Tanaka",
+      "has_pending": true,
+      "refunds": [
+        {
+          "order_number": "ORD-10420",
+          "status": "completed",
+          "amount_eur": 208.03,
+          "created_at": "2026-05-16T23:04:57"
+        },
+        {
+          "order_number": "ORD-10501",
+          "status": "pending",
+          "amount_eur": 97.65,
+          "created_at": "2026-06-16T11:58:22"
+        }
+      ]
+    },
+    {
+      "customer_id": 57,
+      "customer_name": "Niels Kaya",
+      "has_pending": false,
+      "refunds": [
+        {
+          "order_number": "ORD-10490",
+          "status": "completed",
+          "amount_eur": 193.31,
+          "created_at": "2026-05-31T14:20:38"
+        }
+      ]
+    },
+    {
+      "customer_id": 11,
+      "customer_name": "Ingrid Nguyen",
+      "has_pending": false,
+      "refunds": [
+        {
+          "order_number": "ORD-10435",
+          "status": "completed",
+          "amount_eur": 59.12,
+          "created_at": "2026-05-24T15:28:32"
+        },
+        {
+          "order_number": "ORD-10304",
+          "status": "completed",
+          "amount_eur": 125.18,
+          "created_at": "2026-04-21T21:17:40"
+        }
+      ]
+    },
+    {
+      "customer_id": 24,
+      "customer_name": "Grace Nowak",
+      "has_pending": false,
+      "refunds": [
+        {
+          "order_number": "ORD-10093",
+          "status": "completed",
+          "amount_eur": 243.83,
+          "created_at": "2026-02-12T19:34:57"
+        }
+      ]
+    }
+  ]
+}
